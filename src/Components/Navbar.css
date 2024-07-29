@@ -1,0 +1,127 @@
+/* Existing styles remain unchanged */
+.nava {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    font-size: 1.6em;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    transition: transform 0.5s;
+    text-decoration: none;
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links ul li p {
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-links i {
+    transition: transform 0.3s; /* Smooth transition effect for scaling */
+    color: '#183153';
+}
+
+/* HOVER CLASS */
+.social-links a:hover i {
+    transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
+.nav-links li:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: #3d3df1;
+}
+
+.logo:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+/* Hide hamburger icon on larger screens */
+.fa-bars,
+.nav-links .nav-mob-close {
+    display: none;
+}
+
+.mob-open{
+    display:none;
+}
+
+/* Mobile menu styles for screens 768px or less */
+@media (max-width: 768px) {
+    .fa-bars {
+        display: block; /* Show hamburger icon on mobile screens */
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .nav-links {
+        display: none; /* Hide nav links initially on small screens */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        padding: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .mob-open{
+        display:block;
+        cursor:pointer
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links ul li p {
+        margin-right: 0;
+        padding: 10px 20px;
+    }
+
+    .nav-links .nav-mob-close {
+        display: block; /* Show close icon on mobile screens */
+        cursor: pointer;
+        font-size: 24px;
+        margin: 10px;
+        align-self: flex-end;
+    }
+}

@@ -1,0 +1,86 @@
+.carda{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 170px;
+    margin-top:3em;
+    margin-bottom:3em;
+}
+
+
+.carda-text{
+    width:70em;
+    margin-right: 30px;
+}
+
+.carda-text h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.carda-text p {
+    line-height: 28px;
+    font-size: 24px;
+}
+.carda-text span{
+    font-weight: 500;
+    color:#3d3df1;
+}
+.carda-img iframe{
+    width: 600px;
+    height:337.5px;
+    border-radius: 20px;
+    transition: 0.4s
+}
+
+.carda-img iframe:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+@media(max-width:768px){
+    .carda{
+        display:flex;
+        flex-direction: column;
+        margin-right:0px;
+        margin-left:50px;
+        text-align:flex-start;
+        align-items: center;
+    }
+
+    .carda-img{
+        margin-top: 30px
+    }
+
+    .carda-text{
+        max-width:700px
+    }
+
+    .carda h1{
+        font-size:30px;
+    }
+
+    .carda p{
+        font-size:18px;
+    }
+
+    .carda-text p {
+        line-height: 26px;
+    }
+}
+
+@media(max-width:480px){
+    .carda-text{
+        max-width:400px;
+        margin-right: 20px;;
+    }
+
+    .carda-img iframe{
+        width: 400px;
+        border-radius: 20px;
+        transition: 0.4s;
+        margin-left:0px;
+        margin-right: 24px;
+        height:225px;
+    }
+}
