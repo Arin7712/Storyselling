@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Storyselling/static/css/main.7df63222.css",
+    "main.css": "/Storyselling/static/css/main.7a144eed.css",
     "main.js": "/Storyselling/static/js/main.500b5bbc.js",
     "static/js/453.ed3810f9.chunk.js": "/Storyselling/static/js/453.ed3810f9.chunk.js",
     "index.html": "/Storyselling/index.html",
-    "main.7df63222.css.map": "/Storyselling/static/css/main.7df63222.css.map",
+    "main.7a144eed.css.map": "/Storyselling/static/css/main.7a144eed.css.map",
     "main.500b5bbc.js.map": "/Storyselling/static/js/main.500b5bbc.js.map",
     "453.ed3810f9.chunk.js.map": "/Storyselling/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7df63222.css",
+    "static/css/main.7a144eed.css",
     "static/js/main.500b5bbc.js"
   ]
 }
