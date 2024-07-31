@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Storyselllin1/static/css/main.ebe186db.css",
-    "main.js": "/Storyselllin1/static/js/main.2d7fa087.js",
-    "static/js/453.ed3810f9.chunk.js": "/Storyselllin1/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/Storyselllin1/index.html",
-    "main.ebe186db.css.map": "/Storyselllin1/static/css/main.ebe186db.css.map",
-    "main.2d7fa087.js.map": "/Storyselllin1/static/js/main.2d7fa087.js.map",
-    "453.ed3810f9.chunk.js.map": "/Storyselllin1/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/Storyselllin2/static/css/main.ebe186db.css",
+    "main.js": "/Storyselllin2/static/js/main.b54342ad.js",
+    "static/js/453.ed3810f9.chunk.js": "/Storyselllin2/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Storyselllin2/index.html",
+    "main.ebe186db.css.map": "/Storyselllin2/static/css/main.ebe186db.css.map",
+    "main.b54342ad.js.map": "/Storyselllin2/static/js/main.b54342ad.js.map",
+    "453.ed3810f9.chunk.js.map": "/Storyselllin2/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebe186db.css",
-    "static/js/main.2d7fa087.js"
+    "static/js/main.b54342ad.js"
   ]
 }
