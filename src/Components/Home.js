@@ -11,7 +11,8 @@ const Home = () => {
         <p>Deliver your story effectively.</p>
       </div>
       <div className="home-video" >
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rjt48QL6hV4?si=WGazbXutPAkFGJvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        <AnchorLink href='#contact' offset={50} className='anchor-link-btn'><button className='home-button'>Get in touch</button></AnchorLink>
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rjt48QL6hV4?si=WGazbXutPAkFGJvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <AnchorLink href='#contact' offset={50} className='anchor-link-btn'><button className='home-button'>Get in touch</button></AnchorLink>
       </div>
       
     </div>

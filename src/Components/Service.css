@@ -72,9 +72,65 @@
 
 }
 
-@media(max-width:320px){
+@media(max-width:1300px){
     .service-title h1{
-        font-size:40px;
+        font-size: 68px;
+    }
+
+    .cardx{
+        width:515px;
+    }
+
+    .cardx-container{
+        gap:20px;
+    }
+}
+
+@media(max-width:1200px){
+    .cardx{
+        width:480px;
+    }
+}
+
+@media(max-width:1100px){
+    .service{
+        margin:30px 80px;
+    }
+
+    .cardx{
+        width:420px
+    }
+}
+
+@media(max-width:1000px){
+    .service-title{
+        font-size:66px;
+    }
+
+    .cardx{
+        width:400px
+    }
+
+    .cardx h1{
+        font-size:32px;
+        font-weight: 450;
+    }
+
+    .cardx-foot h5{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .cardx p{
+        font-size:22px;
+    }
+    
+}
+
+
+@media(max-width:768px){
+    .service-title h1{
+        font-size:44px;
     }
 
     .cardx-container{
@@ -90,7 +146,7 @@
         display:flex;
         flex-direction: column;
         background-color: aliceblue;
-        width: 300px;
+        width: 480px;
         align-items: center;
         text-align: center;
         border-radius: 50px;
@@ -111,7 +167,164 @@
     }
 }
 
-@media(max-width:360px){
+@media(max-width:680px){
+    .service-title h1{
+        font-size:44px;
+    }
+
+    .cardx-container{
+        display:grid;
+        grid-template-columns:1fr;
+        justify-content: space-between;
+        gap: 2;
+        margin-top: 2em;
+    }
+
+    .cardx{
+        margin: 20px 20px;
+        display:flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 440px;
+        align-items: center;
+        text-align: center;
+        border-radius: 50px;
+        transition:0.6s
+    }
+
+    .cardx h1{
+        font-size:30px;
+        font-weight: 450;
+    }
+
+    .cardx-components p{
+        font-size:18px;
+    }
+
+    .cardx-foot h5{
+        font-size:18px
+    }
+}
+
+
+@media(max-width:580px){
+    .service-title h1{
+        font-size:44px;
+    }
+
+    .cardx-container{
+        display:grid;
+        grid-template-columns:1fr;
+        justify-content: space-between;
+        gap: 2;
+        margin-top: 2em;
+    }
+
+    .cardx{
+        margin: 20px 20px;
+        display:flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 400px;
+        align-items: center;
+        text-align: center;
+        border-radius: 50px;
+        transition:0.6s
+    }
+
+    .cardx h1{
+        font-size:30px;
+        font-weight: 450;
+    }
+
+    .cardx-components p{
+        font-size:18px;
+    }
+
+    .cardx-foot h5{
+        font-size:18px
+    }
+}
+
+@media(max-width:520px){
+    .service-title h1{
+        font-size:40px;
+    }
+
+    .cardx-container{
+        display:grid;
+        grid-template-columns:1fr;
+        justify-content: space-between;
+        gap: 2;
+        margin-top: 2em;
+    }
+
+    .cardx{
+        margin: 20px 20px;
+        display:flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 370px;
+        align-items: center;
+        text-align: center;
+        border-radius: 50px;
+        transition:0.6s
+    }
+
+    .cardx h1{
+        font-size:30px;
+        font-weight: 450;
+    }
+
+    .cardx-components p{
+        font-size:18px;
+    }
+
+    .cardx-foot h5{
+        font-size:18px
+    }
+}
+
+@media(max-width:480px){
+    .service-title h1{
+        font-size:40px;
+    }
+
+    .cardx-container{
+        display:grid;
+        grid-template-columns:1fr;
+        justify-content: space-between;
+        gap: 2;
+        margin-top: 2em;
+    }
+
+    .cardx{
+        margin: 20px 20px;
+        display:flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 370px;
+        align-items: center;
+        text-align: center;
+        border-radius: 50px;
+        transition:0.6s
+    }
+
+    .cardx h1{
+        font-size:30px;
+        font-weight: 450;
+    }
+
+    .cardx-components p{
+        font-size:18px;
+    }
+
+    .cardx-foot h5{
+        font-size:18px
+    }
+}
+
+@media(max-width:460px){
     .service-title h1{
         font-size:40px;
     }
@@ -189,7 +402,7 @@
     }
 }
 
-@media(max-width:460px){
+@media(max-width:360px){
     .service-title h1{
         font-size:40px;
     }
@@ -228,7 +441,8 @@
     }
 }
 
-@media(max-width:480px){
+
+@media(max-width:320px){
     .service-title h1{
         font-size:40px;
     }
@@ -246,7 +460,7 @@
         display:flex;
         flex-direction: column;
         background-color: aliceblue;
-        width: 370px;
+        width: 300px;
         align-items: center;
         text-align: center;
         border-radius: 50px;
@@ -267,69 +481,7 @@
     }
 }
 
-@media(max-width:992px){
-    .service{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .service-title{
-        font-size:60px;
-    }
-    
-    .cardx-container{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: space-between;
-        gap: 2;
-        margin-top: 2em;
-    }
-    
-    .cardx{
-        margin: 20px 20px;
-        display:flex;
-        flex-direction: column;
-        background-color: aliceblue;
-        max-width: 425px;
-        align-items: center;
-        text-align: center;
-        border-radius: 50px;
-        transition:0.6s
-    }
-    
-    .cardx h1{
-        font-size:36px;
-        font-weight: 450;
-    }
-    
-    .underline{
-        border: none; /* Remove default border */
-        height: 1px; /* Thickness of the underline */
-        background-color: #000; /* Color of the underline */
-        width: 50%; /* Width of the underline */
-        margin: 0 auto; /* Center the underline */
-        opacity: 0.5;
-    }
-    
-    .cardx h5{
-        padding: 0 20px;
-        font-size:18px
-    }
-    
-    .cardx-components{
-        display:flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .cardx-foot{
-        width:346px;
-        align-items: center;
-    }
-    
-    .cardx-foot h5{
-        font-size: 20px;
-        font-weight: 500;
-    }
-}
+
+
+
+

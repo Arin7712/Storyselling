@@ -14,7 +14,7 @@ const Testimonials = () => {
         <div className="test-card1">
             <img src="test2.png" alt="" />
             <p>"Yash goes above and beyond to give high quality output and goes whatever it gets to get there. Aything you throw at hi he does his best to get it done."</p>
-            <button>Nuseir Nassir -  CEO at Nas Company</button>
+            <button>Nuseir Yassin -  CEO at Nas Company</button>
         </div>
         <div className="test-card2">
             <img src="test3.png" alt="" />

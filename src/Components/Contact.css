@@ -86,166 +86,48 @@
     font-family: Montserrat;
 }
 
-@media(max-width:320px){
-    .contact{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap:10px;
-        margin-bottom: 40px;
-        margin-top:10px;
-        margin-right:0px;
-        margin-left:20px;
-    }
-
-    .contact-section{
-        display:flex;
-        flex-direction: column;
-        max-width:300px;
-        gap:100px
-    }
-
-    .contact-left{
-        display:flex;
-        max-width:300px;
-        flex-direction: column;
-        gap:30px;
-        align-items: center;
-        text-align: center;
-        margin-right:10px
-    }
-
-    .contact-left p{
-        max-width:300px;
-        font-size:18px;
-    }
-
-    .contact-detail{
-        display:flex;
-        align-items:center;
-        gap:10px;
-    }
-
-    .contact-details{
-        display:flex;
-        flex-direction: column;
-        gap:10px;
-    
-    }
-    
+@media(max-width:1200px){
     .contact-right input{
         border:none;
-        max-width:260px;
+        width:500px;
         height:78px;
+        padding-left: 20px;
         border-radius: 10px;
         background-color: rgb(240, 194, 246, 0.3);
     }
 
     .contact-right textarea{
-        max-width: 230px;
+        width: 450px;
         border: none;
+        padding:25px;
         border-radius: 10px;
         background-color: rgb(240, 194, 246, 0.3);
         font-family: Montserrat;
     }
-    .contact-submit{
-        align-items: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        background-color: #4949fe;
-        border: none;
-        border-radius:50px;
-        color:white;
-        font-size:18px;
-        padding:10px 20px;
-        transition: 0.4s;
-        font-family: Montserrat;
-    }
-       
+    
 }
 
-@media(max-width:360px){
-    .contact{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap:10px;
-        margin-bottom: 40px;
-        margin-top:10px;
-        margin-right:0px;
-        margin-left:20px;
-        text-align: center;
+
+@media(max-width:1000px){
+    .contact h1{
+        font-size:66px
     }
 
-    .contact-section{
-        display:flex;
-        flex-direction: column;
-        max-width:300px;
-        gap:100px
+    .contact p{
+        font-size:20px
     }
 
-    .contact-left{
-        display:flex;
-        max-width:300px;
-        flex-direction: column;
-        gap:30px;
-        align-items: center;
-        text-align: center;
-        margin-right:10px
-    }
-
-    .contact-left p{
-        max-width:300px;
-        font-size:18px;
-    }
-
-    .contact-detail{
-        display:flex;
-        align-items:center;
-        gap:10px;
-    }
-
-    .contact-details{
-        display:flex;
-        flex-direction: column;
-        gap:10px;
-    
-    }
-    
     .contact-right input{
-        border:none;
-        max-width:260px;
-        height:78px;
-        border-radius: 10px;
-        background-color: rgb(240, 194, 246, 0.3);
+        width:420px;
     }
 
     .contact-right textarea{
-        max-width: 230px;
-        border: none;
-        border-radius: 10px;
-        background-color: rgb(240, 194, 246, 0.3);
-        font-family: Montserrat;
+        width:400px;
     }
-    .contact-submit{
-        align-items: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        background-color: #4949fe;
-        border: none;
-        border-radius:50px;
-        color:white;
-        font-size:18px;
-        padding:10px 20px;
-        transition: 0.4s;
-        font-family: Montserrat;
-    }
-       
 }
 
-@media(max-width:420px){
+
+@media(max-width:768px){
     .contact{
         display:flex;
         flex-direction: column;
@@ -296,14 +178,14 @@
     
     .contact-right input{
         border:none;
-        max-width:280px;
+        max-width:430px;
         height:78px;
         border-radius: 10px;
         background-color: rgb(240, 194, 246, 0.3);
     }
 
     .contact-right textarea{
-        max-width: 250px;
+        max-width: 360px;
         border: none;
         border-radius: 10px;
         background-color: rgb(240, 194, 246, 0.3);
@@ -332,7 +214,181 @@
     }
 }
 
-@media(max-width:460px){
+@media(max-width:680px){
+    .contact{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        margin-bottom: 40px;
+        margin-top:10px;
+        margin-right:0px;
+        margin-left:20px;
+        text-align: center;
+    }
+
+    .contact-section{
+        display:flex;
+        flex-direction: column;
+        max-width:300px;
+        gap:100px
+    }
+
+    .contact-left{
+        display:flex;
+        max-width:300px;
+        flex-direction: column;
+        gap:30px;
+        align-items: center;
+        text-align: center;
+        margin-right:10px
+    }
+
+    .contact-left p{
+        max-width:300px;
+        font-size:20px;
+    }
+
+    .contact-detail{
+        display:flex;
+        align-items:center;
+        gap:10px;
+    }
+
+    .contact-details{
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+    
+    }
+    
+    .contact-right input{
+        border:none;
+        max-width:390px;
+        height:78px;
+        border-radius: 10px;
+        background-color: rgb(240, 194, 246, 0.3);
+    }
+
+    .contact-right textarea{
+        max-width: 360px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(240, 194, 246, 0.3);
+        font-family: Montserrat;
+    }
+    .contact-submit{
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #4949fe;
+        border: none;
+        border-radius:50px;
+        color:white;
+        font-size:18px;
+        padding:10px 20px;
+        transition: 0.4s;
+        font-family: Montserrat;
+    }
+
+    .contact-right label{
+        font-size:22px;
+    }
+       
+    .contact-right{
+        align-items:center;
+    }
+}
+
+@media(max-width:580px){
+    .contact{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        margin-bottom: 40px;
+        margin-top:10px;
+        margin-right:0px;
+        margin-left:20px;
+        text-align: center;
+    }
+
+    .contact-section{
+        display:flex;
+        flex-direction: column;
+        max-width:300px;
+        gap:100px
+    }
+
+    .contact-left{
+        display:flex;
+        max-width:300px;
+        flex-direction: column;
+        gap:30px;
+        align-items: center;
+        text-align: center;
+        margin-right:10px
+    }
+
+    .contact-left p{
+        max-width:300px;
+        font-size:20px;
+    }
+
+    .contact-detail{
+        display:flex;
+        align-items:center;
+        gap:10px;
+    }
+
+    .contact-details{
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+    
+    }
+    
+    .contact-right input{
+        border:none;
+        max-width:360px;
+        height:78px;
+        border-radius: 10px;
+        background-color: rgb(240, 194, 246, 0.3);
+    }
+
+    .contact-right textarea{
+        max-width: 320px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(240, 194, 246, 0.3);
+        font-family: Montserrat;
+    }
+    .contact-submit{
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #4949fe;
+        border: none;
+        border-radius:50px;
+        color:white;
+        font-size:18px;
+        padding:10px 20px;
+        transition: 0.4s;
+        font-family: Montserrat;
+    }
+
+    .contact-right label{
+        font-size:22px;
+    }
+       
+    .contact-right{
+        align-items:center;
+    }
+}
+
+@media(max-width:520px){
     .contact{
         display:flex;
         flex-direction: column;
@@ -506,92 +562,343 @@
     }
 }
 
-@media(max-width:992px){
+@media(max-width:460px){
     .contact{
         display:flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap:80px;
-        margin:80px 120px;
+        gap:10px;
+        margin-bottom: 40px;
+        margin-top:10px;
+        margin-right:0px;
+        margin-left:20px;
+        text-align: center;
     }
-    
-    .contact-title{
-        position:relative
-    }
-    
-    .contact-title h1{
-        padding: 0 30px;
-        font-size: 72px;
-    }
-    
+
     .contact-section{
         display:flex;
-        gap:150px
+        flex-direction: column;
+        max-width:300px;
+        gap:100px
     }
-    
+
     .contact-left{
         display:flex;
+        max-width:300px;
         flex-direction: column;
-        gap:30px
+        gap:30px;
+        align-items: center;
+        text-align: center;
+        margin-right:10px
     }
-    
+
     .contact-left p{
-        max-width:500px;
+        max-width:300px;
+        font-size:20px;
     }
-    
-    .contact-details{
-        display:flex;
-        flex-direction: column;
-        gap:20px;
-    
-    }
-    
+
     .contact-detail{
         display:flex;
         align-items:center;
         gap:10px;
     }
-    
-    
-    .contact-right{
+
+    .contact-details{
         display:flex;
         flex-direction: column;
-        align-items: start;
-        gap:30px;
-    }
+        gap:10px;
     
-    .contact-right label{
-        font-weight: 500;
     }
     
     .contact-right input{
         border:none;
-        width:500px;
+        max-width:320px;
         height:78px;
-        padding-left: 20px;
         border-radius: 10px;
         background-color: rgb(240, 194, 246, 0.3);
     }
-    
+
     .contact-right textarea{
-        width: 470px;
+        max-width: 290px;
         border: none;
-        padding:25px;
         border-radius: 10px;
         background-color: rgb(240, 194, 246, 0.3);
         font-family: Montserrat;
     }
-    
     .contact-submit{
+        align-items: center;
         margin-top: 50px;
+        margin-bottom: 50px;
         background-color: #4949fe;
         border: none;
         border-radius:50px;
         color:white;
-        font-size:1.3rem;
-        padding:10px 30px;
+        font-size:18px;
+        padding:10px 20px;
         transition: 0.4s;
         font-family: Montserrat;
     }
+
+    .contact-right label{
+        font-size:22px;
+    }
+       
+    .contact-right{
+        align-items:center;
+    }
 }
+
+@media(max-width:420px){
+    .contact{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        margin-bottom: 40px;
+        margin-top:10px;
+        margin-right:0px;
+        margin-left:20px;
+        text-align: center;
+    }
+
+    .contact-section{
+        display:flex;
+        flex-direction: column;
+        max-width:300px;
+        gap:100px
+    }
+
+    .contact-left{
+        display:flex;
+        max-width:300px;
+        flex-direction: column;
+        gap:30px;
+        align-items: center;
+        text-align: center;
+        margin-right:10px
+    }
+
+    .contact-left p{
+        max-width:300px;
+        font-size:20px;
+    }
+
+    .contact-detail{
+        display:flex;
+        align-items:center;
+        gap:10px;
+    }
+
+    .contact-details{
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+    
+    }
+    
+    .contact-right input{
+        border:none;
+        max-width:280px;
+        height:78px;
+        border-radius: 10px;
+        background-color: rgb(240, 194, 246, 0.3);
+    }
+
+    .contact-right textarea{
+        max-width: 250px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(240, 194, 246, 0.3);
+        font-family: Montserrat;
+    }
+    .contact-submit{
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #4949fe;
+        border: none;
+        border-radius:50px;
+        color:white;
+        font-size:18px;
+        padding:10px 20px;
+        transition: 0.4s;
+        font-family: Montserrat;
+    }
+
+    .contact-right label{
+        font-size:22px;
+    }
+       
+    .contact-right{
+        align-items:center;
+    }
+}
+
+@media(max-width:360px){
+    .contact{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        margin-bottom: 40px;
+        margin-top:10px;
+        margin-right:0px;
+        margin-left:20px;
+        text-align: center;
+    }
+
+    .contact-section{
+        display:flex;
+        flex-direction: column;
+        max-width:300px;
+        gap:100px
+    }
+
+    .contact-left{
+        display:flex;
+        max-width:300px;
+        flex-direction: column;
+        gap:30px;
+        align-items: center;
+        text-align: center;
+        margin-right:10px
+    }
+
+    .contact-left p{
+        max-width:300px;
+        font-size:18px;
+    }
+
+    .contact-detail{
+        display:flex;
+        align-items:center;
+        gap:10px;
+    }
+
+    .contact-details{
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+    
+    }
+    
+    .contact-right input{
+        border:none;
+        max-width:260px;
+        height:78px;
+        border-radius: 10px;
+        background-color: rgb(240, 194, 246, 0.3);
+    }
+
+    .contact-right textarea{
+        max-width: 230px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(240, 194, 246, 0.3);
+        font-family: Montserrat;
+    }
+    .contact-submit{
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #4949fe;
+        border: none;
+        border-radius:50px;
+        color:white;
+        font-size:18px;
+        padding:10px 20px;
+        transition: 0.4s;
+        font-family: Montserrat;
+    }
+       
+}
+
+
+@media(max-width:320px){
+    .contact{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        margin-bottom: 40px;
+        margin-top:10px;
+        margin-right:0px;
+        margin-left:20px;
+    }
+
+    .contact-section{
+        display:flex;
+        flex-direction: column;
+        max-width:300px;
+        gap:100px
+    }
+
+    .contact-left{
+        display:flex;
+        max-width:300px;
+        flex-direction: column;
+        gap:30px;
+        align-items: center;
+        text-align: center;
+        margin-right:10px
+    }
+
+    .contact-left p{
+        max-width:300px;
+        font-size:18px;
+    }
+
+    .contact-detail{
+        display:flex;
+        align-items:center;
+        gap:10px;
+    }
+
+    .contact-details{
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+    
+    }
+    
+    .contact-right input{
+        border:none;
+        max-width:260px;
+        height:78px;
+        border-radius: 10px;
+        background-color: rgb(240, 194, 246, 0.3);
+    }
+
+    .contact-right textarea{
+        max-width: 230px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(240, 194, 246, 0.3);
+        font-family: Montserrat;
+    }
+    .contact-submit{
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #4949fe;
+        border: none;
+        border-radius:50px;
+        color:white;
+        font-size:18px;
+        padding:10px 20px;
+        transition: 0.4s;
+        font-family: Montserrat;
+    }
+       
+}
+
+
+
+
+
+
+

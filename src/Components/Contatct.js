@@ -34,7 +34,6 @@ const Contatct = () => {
       </div>
       <div className="contact-section">
         <div className="contact-left">
-            <h1>Let's chat</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo beatae ratione modi, quam ad, placeat minima ducimus sunt dignissimos ipsam distinctio eaque, consequuntur repudiandae facere. Aperiam inventore eum dolores amet?</p>
             <div className="contact-details">
                 <div className="contact-detail">
@@ -58,6 +57,9 @@ const Contatct = () => {
 
             <label htmlFor=''>Your Email</label>
             <input type='email' placeholder='Enter your email...' name='email'/>
+
+            <label htmlFor=''>Your Phone</label>
+            <input type='number' placeholder='Your number' name='number'/>
 
             <label htmlFor=''>Your message..</label>
             <textarea name='message' rows='8' placeholder='enter your message...'></textarea>

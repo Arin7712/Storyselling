@@ -77,6 +77,27 @@
     display:none;
 }
 
+@media(max-width:1300px){
+    .nava{
+        max-width:1300px;
+    }
+}
+
+@media(max-width:1000px){
+    .nava{
+        max-width:1000px;
+        padding:10px 15px;
+    }
+
+    .nava p{
+        font-size: 18px;
+    }
+
+    .nav-links ul li p {
+        margin-right: 20px;
+        text-decoration: none;
+    }
+}
 
 @media(max-width:992px){
     .nava{
