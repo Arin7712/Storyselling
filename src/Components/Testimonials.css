@@ -3,7 +3,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 
 .testimonials h1{
@@ -88,17 +88,356 @@
 }
 
 
-@media(max-width:768px){
-    .testimonials h1{
-        font-size: 50px;
+@media(max-width:320px){
+    .test-container{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+        margin-top:20px;
+        
     }
 
-    .testimonials p{
+    .testimonials h1{
+        font-size: 40px;
+    }
+
+    .test-card{
+        width:260px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(0, 128, 0, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 45px;
+    }
+
+    .test-card1{
+        width:260px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(162, 160, 250, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 45px;
+    }
+
+    .test-card2{
+        width:260px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(241, 233, 124, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 45px;
+    }
+}
+
+@media(max-width:360px){
+    .test-container{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+        margin-top:20px;
+        
+    }
+
+    .testimonials h1{
+        font-size: 40px;
+    }
+
+    .test-card{
+        width:260px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(0, 128, 0, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 45px;
+    }
+
+    .test-card1{
+        width:260px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(162, 160, 250, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 45px;
+    }
+
+    .test-card2{
+        width:260px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(241, 233, 124, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 45px;
+    }
+}
+
+@media(max-width:420px){
+    .test-container{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+        margin-top:20px;
+        
+    }
+
+    .testimonials h1{
+        font-size: 40px;
+    }
+
+    .test-card{
+        width:280px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(0, 128, 0, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 20px;
+        margin-left: 30px;
+    }
+
+    .test-card1{
+        width:280px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(162, 160, 250, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 20px;
+        margin-left: 30px;
+    }
+
+    .test-card2{
+        width:280px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(241, 233, 124, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 20px;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:460px){
+    .test-container{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+        margin-top:20px;
+        
+    }
+
+    .testimonials h1{
+        font-size: 40px;
+    }
+
+    .test-card{
+        width:280px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(0, 128, 0, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 20px;
+        margin-left: 30px;
+    }
+
+    .test-card1{
+        width:280px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(162, 160, 250, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 20px;
+        margin-left: 30px;
+    }
+
+    .test-card2{
+        width:280px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(241, 233, 124, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 20px;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:480px){
+    .test-container{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+        margin-top:20px;
+        
+    }
+
+    .testimonials h1{
+        font-size: 40px;
+    }
+
+    .test-card{
+        width:300px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(0, 128, 0, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 20px;
+        margin-left: 30px;
+    }
+
+    .test-card1{
+        width:300px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(162, 160, 250, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 20px;
+        margin-left: 30px;
+    }
+
+    .test-card2{
+        width:300px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        border-radius: 45px;
+        background:rgba(241, 233, 124, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s;
+        margin: 20px 20px;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:992px){
+    .testimonials{
+        margin-top:4rem;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    
+    .testimonials h1{
+        font-size: 3em;
+    }
+    
+    .test-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:40px;
+        margin-top:2rem;
+    }
+    
+    .test-container p{
         font-size:18px;
     }
+    
+    .test-card{
+        width:230px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 45px;
+        background:rgba(0, 128, 0, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s
+    }
+    
+    .test-card1{
+        width:230px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 45px;
+        background:rgba(162, 160, 250, 0.4); /* RGBA format: (R, G, B, A) where A is opacity */
+        ;
+        transition:0.4s
+    }
+    
+    .test-card2{
+        width:230px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 45px;
+        background:rgba(241, 233, 124, 0.4); /* RGBA format: (R, G, B, A) where A is opacity */;
+        transition:0.4s
+        ;
+    }
+    
+    .test-container button{
+        border:none;
+        margin:10px 20px;
+        padding:10px 20px;
+        border-radius: 50px;
+        font-size: 15px;
+    }
+    
+    .test-container img{
+        width:100px;
+        border-radius:100px;
+    }
+}
 
-    .test-container{
-        grid-template-columns: 1fr;
-        gap:40px;
+@media(max-width:1200px){
+    .test-card{
+        width:270px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 45px;
+        background:rgba(0, 128, 0, 0.4); /* Green color with 40% opacity */;
+        transition:0.4s
+    }
+    
+    .test-card1{
+        width:270px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 45px;
+        background:rgba(162, 160, 250, 0.4); /* RGBA format: (R, G, B, A) where A is opacity */
+        ;
+        transition:0.4s
+    }
+    
+    .test-card2{
+        width:270px;
+        background-color: aqua;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 45px;
+        background:rgba(241, 233, 124, 0.4); /* RGBA format: (R, G, B, A) where A is opacity */;
+        transition:0.4s
+        ;
     }
 }
