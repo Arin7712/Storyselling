@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Storyselllin2/static/css/main.725aef69.css",
-    "main.js": "/Storyselllin2/static/js/main.63951865.js",
+    "main.css": "/Storyselllin2/static/css/main.b2a50850.css",
+    "main.js": "/Storyselllin2/static/js/main.ea9e613a.js",
     "static/js/453.ed3810f9.chunk.js": "/Storyselllin2/static/js/453.ed3810f9.chunk.js",
     "index.html": "/Storyselllin2/index.html",
-    "main.725aef69.css.map": "/Storyselllin2/static/css/main.725aef69.css.map",
-    "main.63951865.js.map": "/Storyselllin2/static/js/main.63951865.js.map",
+    "main.b2a50850.css.map": "/Storyselllin2/static/css/main.b2a50850.css.map",
+    "main.ea9e613a.js.map": "/Storyselllin2/static/js/main.ea9e613a.js.map",
     "453.ed3810f9.chunk.js.map": "/Storyselllin2/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.725aef69.css",
-    "static/js/main.63951865.js"
+    "static/css/main.b2a50850.css",
+    "static/js/main.ea9e613a.js"
   ]
 }
