@@ -1,13 +1,13 @@
 .testimonials{
-    margin-top:4rem;
+    margin-top:1rem;
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 0;
 }
 
 .testimonials h1{
-    font-size: 3em;
+    font-size: 40px;
 }
 
 .test-container{
@@ -69,16 +69,22 @@
     border-radius:100px;
 }
 
+.title{
+    margin-top:40px
+}
+
 /* Hover Class*/
 
 .test-card:hover{
     transition:0.4s;
-    transform:scale(1.1)
+    transform:scale(1.1);
+    box-shadow: 0 5px 5px  rgba(4, 101, 4, 0.4);;
 }
 
 .test-card1:hover{
     transition:0.4s;
-    transform:scale(1.1)
+    transform:scale(1.1);
+    box-shadow: 0 5px 5px  rgba(125, 123, 218, 0.4);
 }
 
 .test-card2:hover{
@@ -99,6 +105,10 @@
     .test-card2{
         width:300px;
     }
+
+    .testimonials h1{
+        font-size:40px;
+    }
 }
 
 @media(max-width:1200px){
@@ -112,6 +122,10 @@
 
     .test-card2{
         width:280px;
+    }
+
+    .testimonials h1{
+        font-size:40px;
     }
 }
 
@@ -127,11 +141,15 @@
     .test-card2{
         width:250px;
     }
+
+    .testimonials h1{
+        font-size:40px;
+    }
 }
 
 @media(max-width:1000px){
     .testimonials h1{
-        font-size:66px
+        font-size:40px
     }
 
     .testimonials p{

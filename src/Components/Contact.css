@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap:80px;
-    margin:80px 170px;
+    margin:40px 170px;
 }
 
 .contact-title{
@@ -13,7 +13,7 @@
 
 .contact-title h1{
     padding: 0 30px;
-    font-size: 72px;
+    font-size: 40px;
 }
 
 .contact-section{
@@ -54,6 +54,7 @@
 
 .contact-right label{
     font-weight: 500;
+    font-size:22px;
 }
 
 .contact-right input{
@@ -74,16 +75,35 @@
     font-family: Montserrat;
 }
 
+.yash{
+    display: inline-flex;
+    gap:10px;
+}
+
+.yash p{
+    font-size: 18px;
+}
+
 .contact-submit{
-    margin-top: 50px;
-    background-color: #4949fe;
-    border: none;
-    border-radius:50px;
-    color:white;
-    font-size:1.3rem;
-    padding:10px 30px;
-    transition: 0.4s;
-    font-family: Montserrat;
+        margin-top: 50px;
+        background-color: #4949fe;
+        border: none;
+        border-radius:50px;
+        color:white;
+        font-size:1.3rem;
+        padding:10px 30px;
+        transition: 0.4s;
+        font-family: Montserrat;
+        box-shadow: 0 4px 8px rgba(0, 0, 255, 0.5), 0 -4px 8px rgba(0, 0, 255, 0.5); /* Shadow above and below */
+}
+
+.contact-submit:hover{
+    transform: scale(1.2);
+    transition:0.4s
+}
+
+.contact-submit:active{
+    background-color: aliceblue;
 }
 
 @media(max-width:1200px){
@@ -104,13 +124,21 @@
         background-color: rgb(240, 194, 246, 0.3);
         font-family: Montserrat;
     }
+
+    .yash p{
+        font-size:16px;
+    }
+
+    .contact h1{
+        font-size:40px
+    }
     
 }
 
 
 @media(max-width:1000px){
     .contact h1{
-        font-size:66px
+        font-size:40px
     }
 
     .contact p{
@@ -123,6 +151,10 @@
 
     .contact-right textarea{
         width:400px;
+    }
+
+    .yash p{
+        font-size:16px;
     }
 }
 

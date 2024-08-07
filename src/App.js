@@ -1,5 +1,5 @@
 import './App.css';
-import Contatct from './Components/Contatct';
+import Form from './Components/Form';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Service from './Components/Service';
@@ -19,7 +19,7 @@ function App() {
       <Work3/>
       <Service/>
       <Testimonials/>
-      <Contatct/>
+      <Form/>
     </div>
   );
 }

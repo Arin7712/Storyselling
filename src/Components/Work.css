@@ -13,13 +13,13 @@
 }
 
 .carda-text h1{
-    font-size: 60px;
+    font-size: 36px;
     font-weight: 500;
 }
 
 .carda-text p {
     line-height: 28px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .carda-text span{
@@ -272,10 +272,9 @@
         display:flex;
         flex-direction: column;
         align-items: center;
-        width:380px;
-        margin: 0 40px;
-        margin-right:30px;
-        margin-left: 30px;
+        max-width:360px;
+        margin-right:0px;
+        margin-left: 25px;
     }
     .carda-text h1{
         font-size: 30px;
@@ -288,12 +287,12 @@
     }
 
     .carda-text{
-        width:380px;
+        max-width:360px;
         margin-right: 0;
     }
 
     .carda-img iframe{
-        width: 380px;
+        width: 360px;
         height:214px;
         border-radius: 20px;
         transition: 0.4s;
@@ -301,6 +300,39 @@
     }
 }
 
+
+@media(max-width:380px){
+    .carda{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        max-width:320px;
+        margin: 0 40px;
+    }
+    .carda-text h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .carda-text p {
+        line-height: 28px;
+        font-size: 18px;
+    }
+
+    .carda-text{
+        max-width:300px;
+        margin-right: 0px;
+    }
+
+    .carda-img iframe{
+        width: 300px;
+        height:169px;
+        border-radius: 20px;
+        transition: 0.4s;
+        margin-right:20px;
+        margin-left:0;
+    }
+}
 
 
 @media(max-width:360px){

@@ -4,8 +4,8 @@
     align-items: center;
 }
 
-.service-title{
-    font-size:72px;
+.service-title h1{
+    font-size:40px;
 }
 
 .cardx-container{
@@ -20,13 +20,21 @@
     margin: 20px 20px;
     display:flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: rgb(236, 221, 243);
     width: 525px;
-    align-items: center;
+    align-items:center;
     text-align: center;
     border-radius: 50px;
     transition:0.6s
 }
+
+.cardx-comp{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    width:200px;
+}
+
 
 .cardx h1{
     font-size:36px;
@@ -53,6 +61,10 @@
     align-items: flex-start;
 }
 
+.cardx-components p {
+    font-size: 18px;;
+}
+
 .cardx-foot{
     width:346px;
     align-items: center;
@@ -68,13 +80,14 @@
 
 .cardx:hover{
     transition:0.6s;
-    transform: scale(1.1)
+    transform: scale(1.1);
+    box-shadow: 2px 5px 5px rgb(223, 195, 235);;
 
 }
 
 @media(max-width:1300px){
     .service-title h1{
-        font-size: 68px;
+        font-size: 40px;
     }
 
     .cardx{
@@ -145,7 +158,7 @@
         margin: 20px 20px;
         display:flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: rgb(236, 221, 243);
         width: 480px;
         align-items: center;
         text-align: center;
@@ -184,7 +197,7 @@
         margin: 20px 20px;
         display:flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: rgb(236, 221, 243);
         width: 440px;
         align-items: center;
         text-align: center;
@@ -224,7 +237,7 @@
         margin: 20px 20px;
         display:flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: rgb(236, 221, 243);
         width: 400px;
         align-items: center;
         text-align: center;
@@ -263,7 +276,7 @@
         margin: 20px 20px;
         display:flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: rgb(236, 221, 243);
         width: 370px;
         align-items: center;
         text-align: center;
@@ -302,7 +315,7 @@
         margin: 20px 20px;
         display:flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: rgb(236, 221, 243);
         width: 370px;
         align-items: center;
         text-align: center;
@@ -341,7 +354,7 @@
         margin: 20px 20px;
         display:flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: rgb(236, 221, 243);
         width: 300px;
         align-items: center;
         text-align: center;
@@ -360,6 +373,17 @@
 
     .cardx-foot h5{
         font-size:18px
+    }
+
+    .cardx-comp{
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        width:170px;
+    }
+
+    .cardx-comp p{
+        font-size:16px;
     }
 }
 
@@ -380,7 +404,7 @@
         margin: 20px 20px;
         display:flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: rgb(236, 221, 243);
         width: 300px;
         align-items: center;
         text-align: center;
@@ -399,6 +423,17 @@
 
     .cardx-foot h5{
         font-size:18px
+    }
+
+    .cardx-comp{
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        width:170px;
+    }
+
+    .cardx-comp p{
+        font-size:16px;
     }
 }
 
@@ -419,7 +454,7 @@
         margin: 20px 20px;
         display:flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: rgb(236, 221, 243);
         width: 300px;
         align-items: center;
         text-align: center;
@@ -437,7 +472,18 @@
     }
 
     .cardx-foot h5{
-        font-size:18px
+        font-size:16px
+    }
+
+    .cardx-comp{
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        width:170px;
+    }
+
+    .cardx-comp p{
+        font-size:16px;
     }
 }
 
@@ -459,7 +505,7 @@
         margin: 20px 20px;
         display:flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: rgb(236, 221, 243);
         width: 300px;
         align-items: center;
         text-align: center;

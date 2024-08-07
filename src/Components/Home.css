@@ -13,7 +13,6 @@
 }
 
 .home-text span{
-    text-decoration: underline;
     color:#4949fe;
     text-decoration-color: #4949fe;
 }
@@ -23,8 +22,8 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    width:955px;
-    height:537px;
+    width:900px;
+    height:600px;
 }
 
 .home-button{
@@ -42,7 +41,7 @@
 
 .card-text-h1{
     margin-top: 4rem;
-    font-size:102px;
+    font-size:40px;
     font-family: Montserrat;
 }
 
@@ -52,6 +51,10 @@
 }
 .align-left{
     margin-left:160px;
+}
+
+.align-left h1{
+    font-size: 40px;
 }
 
 /*Hover Classes*/
@@ -83,7 +86,7 @@
 @media(max-width:1000px){
     .home-video{
         width:800px;
-        height:450px;
+        height:550px;
     }
 
     .card-text-h1{
@@ -94,6 +97,7 @@
 @media(max-width:768px){
     .home-video{
         width:700px;
+        height:490px
     }
 
     .align-left{
@@ -114,7 +118,7 @@
         align-items: center;
         margin-top: 20px;
         width:500px;
-        height:310px;
+        height:360px;
     }
 
     .anchor-link-btn{
@@ -150,7 +154,7 @@
         align-items: center;
         margin-top: 20px;
         width:460px;
-        height:270px;
+        height:340px;
     }
 
     .anchor-link-btn{
@@ -185,7 +189,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
-        width:380px;
+        width:400px;
         height:300px;
         margin-bottom:20px
     }
@@ -223,7 +227,7 @@
         align-items: center;
         margin-top: 20px;
         width:380px;
-        height:300px;
+        height:290px;
         margin-bottom:20px
     }
 
@@ -246,7 +250,7 @@
     
     .card-text-h1{
         font-size: 44px;
-        margin-top: 120px;
+        margin-top: 70px;
         font-family: Montserrat;
     }
 
@@ -284,7 +288,7 @@
         align-items: center;
         margin-top: 20px;
         width:380px;
-        height:300px;
+        height:290px;
         margin-bottom:20px
     }
 
@@ -307,7 +311,7 @@
     
     .card-text-h1{
         font-size: 44px;
-        margin-top: 120px;
+        margin-top: 70px;
         font-family: Montserrat;
     }
 
@@ -346,7 +350,7 @@
         align-items: center;
         margin-top: 20px;
         width:380px;
-        height:300px;
+        height:290px;
         margin-bottom:20px
     }
 
@@ -369,7 +373,7 @@
     
     .card-text-h1{
         font-size: 44px;
-        margin-top: 120px;
+        margin-top: 70px;
         font-family: Montserrat;
     }
 
@@ -386,7 +390,66 @@
     }
 }
 
+@media(max-width:380px){
+    .home-text{
+        width:320px;
+        align-items: center;
+        text-align: center;
+    }
 
+    .home h1{
+        font-size:22px
+    }
+
+    .home p {
+        font-size:18px
+    }
+
+    .home-video{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        width:320px;
+        height:300px;
+    }
+
+    .home{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin-top: 60px;
+        margin:0 20px;
+    }
+
+    .main{
+        margin-top: 40px
+    }
+
+    .align-left{
+        margin-left:25px;
+    }
+    
+    .card-text-h1{
+        font-size: 40px;
+        margin-top: 70px;
+        font-family: Montserrat;
+    }
+
+    .home-button{
+        margin-top: 50px;
+        background-color: #4949fe;
+        border: none;
+        border-radius:50px;
+        color:white;
+        font-size:18px;
+        padding:10px 30px;
+        transition: 0.4s;
+        font-family: Montserrat;
+        box-shadow: 0 4px 8px rgba(0, 0, 255, 0.5), 0 -4px 8px rgba(0, 0, 255, 0.5); /* Shadow above and below */
+    }
+}
 
 @media(max-width:360px){
     .home-text{
@@ -409,7 +472,7 @@
         align-items: center;
         margin-top: 20px;
         width:300px;
-        height:169px;
+        height:292px;
     }
 
     .home{
@@ -431,7 +494,7 @@
     
     .card-text-h1{
         font-size: 40px;
-        margin-top: 100px;
+        margin-top: 70px;
         font-family: Montserrat;
     }
 
@@ -492,7 +555,7 @@
     
     .card-text-h1{
         font-size: 40px;
-        margin-top: 140px;
+        margin-top: 80px;
         font-family: Montserrat;
     }
 

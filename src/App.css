@@ -1,13 +1,15 @@
 body{
     font-family: Montserrat;
-    background: linear-gradient(to bottom right, 
-    #f0f4ff, /* Light blue */
-    #fff0f0, /* Light pink */
-    #f0fff0, /* Light green */
-    #fff9f0  /* Light yellow */);
+    background: linear-gradient(to right, 
+    rgba(255, 255, 255, 0.9),   /* very light white */
+    rgba(96, 199, 237, 0.2),  /* very light blue */
+    rgba(210, 246, 210, 0.2),  /* very light green */
+    rgba(236, 236, 175, 0.2),  /* very light yellow */
+    rgba(255, 182, 193, 0.2)); /* very light pink */
+background-size: cover;
+overflow: auto;
     margin:0px;
     padding: 0px;
-
 }
 p{
   font-size:20px;
