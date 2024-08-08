@@ -12,6 +12,13 @@ const Form = () => {
           duration: 1400, // Animation duration in milliseconds
           once: true,     // Whether animation should happen only once
         });
+
+        const textarea = document.getElementById('auto-resizing-textarea');
+
+      textarea.addEventListener('input', function() {
+        this.style.height = 'auto';
+        this.style.height = (this.scrollHeight) + 'px';
+      });
       }, []);
 
       const onSubmit = async (event) => {
@@ -36,9 +43,8 @@ const Form = () => {
         }
       };
 
-      const textarea = document.getElementById('auto-resizing-textarea');
-
-
+      
+      
   return (
     <div id='form' className="new-contact">
         <div className="contact-left" data-aos='fade-up'>

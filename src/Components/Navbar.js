@@ -25,7 +25,7 @@ const Navbar = () => {
           <li><AnchorLink className='anchor-link' offset={50} href="#work"><p>Our Work</p></AnchorLink></li>
           <li><AnchorLink className='anchor-link' offset={50} href="#service"><p>Our Services</p></AnchorLink></li>
           <li><AnchorLink className='anchor-link' offset={50} href="#testimonials"><p>Testimonials</p></AnchorLink></li>
-          <li><AnchorLink className='anchor-link' offset={50} href="#form"><p>Contacta</p></AnchorLink></li>
+          <li><AnchorLink className='anchor-link' offset={50} href="#form"><p>Contact</p></AnchorLink></li>
         </ul>
       </div>
       <div className="social-links">
