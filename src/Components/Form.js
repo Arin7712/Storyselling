@@ -38,10 +38,6 @@ const Form = () => {
 
       const textarea = document.getElementById('auto-resizing-textarea');
 
-textarea.addEventListener('input', function() {
-  this.style.height = 'auto';
-  this.style.height = (this.scrollHeight) + 'px';
-});
 
   return (
     <div id='form' className="new-contact">
